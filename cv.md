@@ -30,8 +30,9 @@ console.log(result);
   - [Netology](https://netology.ru/) (Basics HTML & CSS)
   - [Local Coding](https://localcoding.us/) (JavaScript Syntax in progress)
   - [RS Schools Course](https://rs.school/) «JavaScript/Front-end 2022Q2. Stage 0» (in progress)
-![certificate geekbrains](https://github.com/VitalyGutnikov/rsschool-cv/blob/gh-pages/rsschool-cv-html/img/certificate%20geekbrains.png)
-![certificate netology](https://github.com/VitalyGutnikov/rsschool-cv/blob/gh-pages/rsschool-cv-html/img/certificate%20netology.png)
+![certificate geekbrains](https://raw.githubusercontent.com/VitalyGutnikov/rsschool-cv/gh-pages/rsschool-cv-html/img/certificate%20geekbrains.png)
+
+![certificate netology](https://raw.githubusercontent.com/VitalyGutnikov/rsschool-cv/gh-pages/rsschool-cv-html/img/certificate%20netology.png)
 
 # Languages
   - **Russian:** native speaker;
