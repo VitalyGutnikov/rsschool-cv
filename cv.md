@@ -1,5 +1,5 @@
 # Vitaly Hutnikau
-![it's is me](https://github.com/VitalyGutnikov/rsschool-cv/blob/rsschool-cv-html/rsschool-cv-html/img/avatar_350px.png)
+![it's is me](https://github.com/VitalyGutnikov/rsschool-cv/blob/gh-pages/rsschool-cv-html/img/avatar_350px.png)
 # Contacts
   - **E-mail:** vitaly_vg.st_prod@mail.ru
   - **instagram:** @vitaly_vg.st_prod
@@ -30,8 +30,8 @@ console.log(result);
   - [Netology](https://netology.ru/) (Basics HTML & CSS)
   - [Local Coding](https://localcoding.us/) (JavaScript Syntax in progress)
   - [RS Schools Course](https://rs.school/) «JavaScript/Front-end 2022Q2. Stage 0» (in progress)
-![certificate geekbrains](https://github.com/VitalyGutnikov/rsschool-cv/blob/rsschool-cv-html/rsschool-cv-html/img/certificate%20geekbrains.png)
-![certificate netology](https://github.com/VitalyGutnikov/rsschool-cv/blob/rsschool-cv-html/rsschool-cv-html/img/certificate%20netology.png)
+![certificate geekbrains](https://github.com/VitalyGutnikov/rsschool-cv/blob/gh-pages/rsschool-cv-html/img/certificate%20geekbrains.png)
+![certificate netology](https://github.com/VitalyGutnikov/rsschool-cv/blob/gh-pages/rsschool-cv-html/img/certificate%20netology.png)
 
 # Languages
   - **Russian:** native speaker;
