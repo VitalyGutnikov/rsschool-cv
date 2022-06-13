@@ -16,17 +16,16 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-	color: #fff;
+	color: #1a1919;
 }
 
 .main {
 	max-width: 1200px;
 	margin: 0px auto;
-	background: #2b2b2b;
+	background: #0e5c5c;
 	border-top: 15px solid #fff;
 	border-bottom: 15px solid #fff;
-	/* display: flex; */
-	/* justify-content: center;*/
+	border-radius: 3%;
 }
 
 .container {
@@ -40,8 +39,9 @@ body {
 	align-items: center;
 	list-style: none; /* Убираем стандартные маркеры */
   }
+
   .nav-link {
-	padding: 0 30px;
+	padding: 0 35px;
 	line-height: 50px;
 	text-decoration: none;
 	box-sizing: border-box;
@@ -53,13 +53,29 @@ body {
   
   .nav-link:hover {
 	  box-sizing: border-box;
-	  border-bottom: 2px solid #ffa500;
+	  border-bottom: 2px solid #00dcf5;
 	  margin: 0;
-	/* color: green; */
+	  /* color: #00dcf5; */
+	  border-radius: 25px;
+	  padding: 5px 35px;
+	  box-shadow: 1px 1px 22px 2px inset rgba(0, 0, 0, 0.72);
   }
 
   .section-item {
-	list-style-type: none;
+	list-style: none;
+	position: relative;
+	padding-left: 20px;
+  }
+  
+  .section-item::before {
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	width: 10px;
+	height: 10px; 
+	border: 1px solid #829985;
+	border-radius: 50%;
   }
 
   .section-item a {
@@ -68,9 +84,21 @@ body {
 	transition: color 0.5s;
   }
   .section-item a:hover {
-	color: #ffa500;
+	color: #00dcf5;
   }
 
+.link-in-text {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+	font-style: italic;
+	transition: color 0.5s;
+}
+
+.link-in-text:hover {
+	color: #00dcf5;
+}
+  
   .main-container {
 	display: flex; /*размещает секции по горизонтали*/
 	flex-wrap: wrap; /*секции, которые не помещаются по ширине контейнера переносятся на новую строку*/
@@ -78,11 +106,16 @@ body {
   
   .section {
 	width: 50%; /*каждая секция занимает ровно половину ширины контейнера*/
-	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+  }
+
+  .section-color {
+	background: #e0e9f0;
   }
 
   .section h2{
-	color: #fff;
+	color: rgb(182 178 185);;
 	font-family: Anton, sans-serif;
 	letter-spacing: 3px;
 	font-weight: 500;
@@ -96,15 +129,17 @@ body {
   }
 
 .header {
-	background: #2b2b2b;
+	background: #0e5c5c;
 }
 .footer {
-	background: #2b2b2b;
+	background: #0e5c5c;
 	padding: 20px;
 }
 
 .section-profile-logo {
 	border-radius: 30px;
+	width: 280px;
+	height: 350px;
 	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.72);
 }
 .section-profile {
@@ -113,13 +148,21 @@ body {
     width: 100%;
     padding: 50px 30px 35px;
     border-bottom: 15px solid #fff;
+	border-radius: 20%;
 }
 .section-title-profile {
-	font-family: Roboto, sans-serif;
+	font-family: 'Oleo Script', sans-serif;
 	text-align: center;
 	/* letter-spacing: 5px */
-	font-weight: 600;
+	font-weight: 100;
 	font-size: 4em;
+	color: #e0e9f0;
+	margin-bottom: -25px;
+}
+
+.section-subtitle {
+	text-align: center;
+	color: #e0e9f0;
 }
 
 .progress-block {
@@ -127,14 +170,27 @@ body {
 }
 
 .progress-container {
-	accent-color: orange;
+	accent-color: #00dcf5;
 }
 .section-block-code {
 	font-size: 1.1em;
 }
 
+.section-block-code {
+	color: #fff;
+	padding: 10px 0; 
+	background: rgba(0,0,0,0.5);
+	border-radius: 45px;
+	box-shadow: 10px 10px 5px 0px inset rgba(0,0,0,0.72);
+}
+
+.section-code {
+	padding-left: 40px;
+}
+
+
 .code-text-a {
-	color: rgb(188, 255, 2);
+	color: hsl(59, 100%, 50%);
 }
 
 .code-text-b {
@@ -149,18 +205,19 @@ body {
 	color: rgb(255, 2, 57);
 }
 
-
-
-
 hr {
-	color: orange;
+    background: #ffa500;
+    height: 3px;
+    border-radius: 59%;
 }
 
 .container-courses-img {
-	padding-left: 50px;
+	padding-left: 30px;
 }
 .certificate-img {
 	padding-left: 20px;
+	width: 250px;
+	height: 150px;
 }
 
 .footer-container {
@@ -172,7 +229,7 @@ hr {
 	max-width: 1150px;
 }
 .rss {
-	width: 121px;
+  width: 121px;
   height: 45px;
   background-size: contain;
   background-repeat: no-repeat;
