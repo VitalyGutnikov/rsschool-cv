@@ -110,6 +110,10 @@ body {
 	list-style-image: url(./assets/img/project.png);
   }
   
+  .footer-gh {
+	list-style-image: url(./assets/img/github-white_10px.png);
+  }
+
   .section-item a {
 	color: #000;
 	text-decoration: none;  
@@ -275,6 +279,30 @@ hr {
 .linkgh {
 	text-decoration: none;
 	color: #fff;
+	/* width: 121px;
+  height: 45px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px auto;
+	background-image: url("./assets/img/github-white_10px.png") */
+}
+
+.footer-gh {
+  padding-right: 2px;
+}
+
+.footer-year {
+	font-family: 'Oleo Script', sans-serif;
+	font-size: 1.3em;
+	padding-right: 10px;
+}
+
+.linkgh {
+	font-family: 'Oleo Script', sans-serif;
+	font-size: 1.7em;
+}
+.linkgh:hover {
+	color: #00dcf5;
 }
 
 /*Adaptive Menu*/
@@ -338,7 +366,7 @@ hr {
 	font-family: 'Oleo Script', sans-serif;
 	text-align: center;
 	font-weight: 100;
-	font-size: 3em;
+	font-size: 3.2gitem;
 	margin-bottom: 25px;
 }
 
@@ -382,5 +410,15 @@ hr {
     height: 100%;
     flex-direction: column;
     padding-top: 50px;
+}
+.footer-year {
+	font-family: 'Oleo Script', sans-serif;
+	font-size: 1em;
+	padding-right: 10px;
+}
+
+.linkgh {
+	font-family: 'Oleo Script', sans-serif;
+	font-size: 1em;
 }
 }
