@@ -192,7 +192,7 @@ body {
 	font-weight: 100;
 	font-size: 4em;
 	color: #e0e9f0;
-	margin-bottom: -10пше px;
+	margin-bottom: -10px;
 }
 
 .section-subtitle {
@@ -267,27 +267,21 @@ hr {
 	max-width: 1150px;
 }
 .rss {
-  width: 121px;
-  height: 45px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 10px auto;
+	width: 121px;
+	height: 45px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 10px auto;
 	background-image: url("./assets/img/rs_school_js.png");
 }
 
 .linkgh {
 	text-decoration: none;
 	color: #fff;
-	/* width: 121px;
-  height: 45px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 10px auto;
-	background-image: url("./assets/img/github-white_10px.png") */
 }
 
 .footer-gh {
-  padding-right: 2px;
+	padding-right: 2px;
 }
 
 .footer-year {
