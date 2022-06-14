@@ -1,5 +1,5 @@
 # Vitaly Hutnikau
-![it's is me](https://raw.githubusercontent.com/VitalyGutnikov/rsschool-cv/rsschool-cv-html/assets/img/avatar_350px.png)
+![it's is me](https://raw.githubusercontent.com/VitalyGutnikov/rsschool-cv/gh-pages/assets/img/avatar_350px.png)
 # Contacts
   - **E-mail:** vitaly_vg.st_prod@mail.ru
   - **instagram:** @vitaly_vg.st_prod
