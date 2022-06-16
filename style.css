@@ -38,7 +38,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	list-style: none; /* Убираем стандартные маркеры */
+	list-style: none; 
   }
 
   .nav-link {
@@ -47,7 +47,6 @@ body {
 	text-decoration: none;
 	box-sizing: border-box;
 	font-family: Anton;
-	transition: .3s; /*чтобы при наведении плавно менялось свойство*/
 	transition: color 0.5s;
 	color: #fff;
   }
@@ -56,7 +55,6 @@ body {
 	  box-sizing: border-box;
 	  border-bottom: 2px solid #00dcf5;
 	  margin: 0;
-	  /* color: #00dcf5; */
 	  border-radius: 25px;
 	  padding: 5px 35px;
 	  box-shadow: 1px 1px 22px 2px inset rgba(0, 0, 0, 0.72);
@@ -337,6 +335,19 @@ hr {
 	display: none;
   }
 
+@media (max-width: 1050px) {
+.nav-link {
+		padding: 0 15px;
+	  }
+	  
+.nav-link:hover {
+		  padding: 5px 15px;
+	  }
+.nav-list {
+		margin-left: -60px;
+	}
+}
+
 @media (max-width: 768px) {
 .section {
 	  width: 100%;
@@ -378,6 +389,10 @@ hr {
 .nav {
     display: none;
 }
+.nav-list {
+	margin: 0;
+}
+
 .toggle {
     display: flex;
 }
