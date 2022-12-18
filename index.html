@@ -1,15 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>CV</title>
-</head>
-<body>
-	<div>
-		<h1>CV Vitaly Gutnikov</h1>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/png/favicon.png" sizes="64x64">
+    <link rel="icon" href="assets/png/favicon.png" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses"  class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#projects"  class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#education"  class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <div class="line1"></div> 
+            <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div> 
+    </header>
+    <main class="main">
+      <div class="cotainer main-container">
+        <section class="section section-profile" id="profile">
+          <img src="./assets/png/avatar_350px.png" alt="section-profile-logo" class="section-profile-logo">
+            <div class="section-profile-tittle">
+              <h1 class="section-title-profile">Vitaly Gutnikov</h1>
+              <h3 class="section-subtitle">Junior Front-End Developer</h3>
+            </div>
+        </section>
+        <div class="left-block">
+          <section class="section-left" id="contacts">
+            <h2>Contacts</h2>
+              <ul class="contact-list">
+                <li class="section-item location-item"><a href="https://www.google.com/maps/place/%D0%91%D1%80%D0%B5%D1%81%D1%82/@52.0879995,23.702888,12z/data=!3m1!4b1!4m5!3m4!1s0x47210c0223630975:0x4d319ea41f64ae99!8m2!3d52.0996507!4d23.7636662" title="click to go Google Maps/Brest" target="_blank">Brest, Belarus</a></li>
+                  <li class="section-item email-item">@-mail: <a href="mailto:vitaly_vg.st_prod@mail.ru" title="click to go your email" target="_blank">vitaly_vg.st_prod@mail.ru</a></li>
+                    <li class="section-item instagram-item">Instagram: <a href="https://www.instagram.com/vitaly_vg.st_prod/" title="click to go instagram" target="_blank">vitaly_vg.st_prod</a></li>
+                      <li class="section-item tm-item">Telegram: <a href="https://t.me/VitalyG7" title="click to go telegram" target="_blank">VitalyG7</a></li>
+                    <li class="section-item viber-item">Viber: <a href="viber://chat?number=%2B375295258950" title="click to go viber" target="_blank">VitalyG7</a></li>
+                  <li class="section-item gh-item">GitHub: <a href="https://github.com/VitalyGutnikov" title="click to go github" target="_blank">VitalyGutnikov</a></li>
+                <li class="section-item discord-item">Discord: <a href="https://discord.com/" title="click to go discord" target="_blank">Vitaly.Gutnikov#3690</a></li>
+              </ul>
+          </section>
+          <section class="section-left" id="skills">
+              <h2 class="section-title">Skills</h2>
+              <ul class="skills-list">
+                <li class="section-item js-item">
+                    <span class="progress-label">JavaScript</span>
+                    <div class="progress-container">
+                      <progress max="100" value="35">JS</progress> 35%
+                    </div>
+                </li>
+                <li class="section-item html-item">
+                    <span class="progress-label">HTML5</span>
+                    <div class="progress-container">
+                      <progress max="100" value="65">HTML5</progress> 70%
+                    </div>
+                </li>
+                <li class="section-item css-item">
+                  <span class="progress-label">CSS</span>
+                    <div class="progress-container">
+                      <progress max="100" value="80">CSS</progress> 65%
+                    </div>
+                </li>
+                <li class="section-item gh-item">
+                  <span class="progress-label">Git, GitHub</span>
+                    <div class="progress-container">
+                      <progress max="100" value="50">Git, GitHub</progress> 80%
+                    </div>
+                </li>
+              </ul>
+          </section>
+          <section class="section-left" id="languages">
+              <h2 class="section-title">Languages</h2>
+                <p>Russian: native speaker</p>
+                  <p>English: A1</p>
+          </section>
+          <section class="section-left" id="education">
+              <h2 class="section-title">Education</h2>
+                <p><b>2012-2017</b><br>
+                  Belarusian State University of Informatics and Radioelectronics</p>
+                <p><b>June 2022- September 2022</b><br>
+                  RS School - JavaScript/Front-end</p>
+          </section> 
+        </div>
+        <div class="right-block">     
+        <section class="section-right-summary" id="summary">
+          <h2 class="tittle-right summery-title">Summary</h2>
+            <p class="paragraph-right">
+              I am 27 years old. Not so long ago I was engaged in network administration of a
+              telecommunications system in the <a href="https://www.zabbix.com/ru" class="link-in-text" title="click to go zabbix.com" target="_blank">ZABBIX</a> 
+              monitoring system, for which I began to study a new direction for myself as the JavaScript
+              programming language. Which, in turn, radically changed my point of view in relation to my work, 
+              and I decided to delve into the study of this language, as well as everything that is necessary to 
+              follow the path of a JS / FE developer.
+            </p>
+        </section>
+        <section class="section-right-code" id="code">
+            <h2 class="section-title tittle-right" >Code</h2>
+                <pre><code>function showTime() {
+    const date = new Date();
+    let sec = date.getSeconds(),
+        min = date.getMinutes(),
+        hours = date.getHours();
+    getHoursTime.textContent = `${hours.pad(2)}`;
+    getMinutessTime.textContent = `${min.pad(2)}`;
+    getSecondsTime.textContent = `${sec.pad(2)}`;
+    setTimeout(showTime, 1000);
+}
+showTime();</code></pre>
+        </section> 
+        <section class="section-right-courses" id="courses">
+            <h2 class="tittle-right courses-title">Courses</h2>
+              <ul class="courses-list">
+                <li class="section-item gb-item"><b>GeekBrains: </b><a href="https://geekbrains.by/" title="click to go geekbrains.by" target="_blank">Basics of programming. Online courses</a></li>
+                <li class="section-item nl-item"><b>Netology: </b><a href="https://netology.ru/" title="click to go netology.ru" target="_blank">Basics HTML & CSS. Online courses</a></li>
+                <li class="section-item lc-item"><b>Local Coding:</b> <a href="https://localcoding.us/" title="click to go localcoding.us" target="_blank">JavaScript Syntax (in progress)</a></li>
+                <li class="section-item rs-item"><b>RS Schools Course:</b> <a href="https://rs.school/" title="click to go rs.school" target="_blank">JavaScript/Front-end 2022Q2. Stage 0»</a></li>
+                <li class="section-item rs-item"><b>RS Schools Course:</b> <a href="https://rs.school/" title="click to go rs.school" target="_blank">JavaScript/Front-end 2022Q3. Stage 1» (not finish)</a></li>
+				<li class="section-item rs-item"><b>RS Schools Course:</b> <a href="https://rs.school/" title="click to go rs.school" target="_blank">JavaScript/Front-end 2022Q4. Stage 0» (in progress)</a></li>
+			</ul>
+            <div class="container-courses-img">
+              <img src="./assets/png/certificate-geekbrains.png" alt="certificate geekbrains" class="certificate-img" >
+              <img src="./assets/png/certificate-netology.png" alt="certificate netology" class="certificate-img">
+              <img src="./assets/png/certificate-rss.png" alt="certificate rss" class="certificate-img">
+            </div>
+        </section>     
+        <section class="section-right" id="projects">
+            <h2 class="section-title tittle-right">My projects</h2>
+              <ul class="projects-list">
+                <li class="section-item pj-item-travel">
+                  <a href="https://rolling-scopes-school.github.io/vitalygutnikov-JSFEPRESCHOOL2022Q2/travel/?#"  target="_blank">
+                  <img src="./assets/png/travel.png" alt="project-image-travel" class="project-image">
+                  <h3 class="project-title">Travel
+                    <div class="project-item">
+                      <img src="./assets/png/icons-html.png" alt="HTML5" title="HTML5">
+                      <img src="./assets/png/icons-css.png" alt="CSS" title="CSS">
+                      <img src="./assets/png/icons-js.png" alt="JavaScript" title="JavaScript">
+                    </div>
+                  </h3>
+                  </a>
+                </li>
+                 <li class="section-item pj-item-momentum">
+                  <a href="https://rolling-scopes-school.github.io/vitalygutnikov-JSFEPRESCHOOL2022Q2/momentum/"  target="_blank">
+                    <img src="./assets/png/momentum.png" alt="project-image-travel" class="project-image">
+                  <h3 class="project-title">Momentum
+                    <div class="project-item">
+                      <img src="./assets/png/icons-html.png" alt="HTML5" title="HTML5">
+                      <img src="./assets/png/icons-css.png" alt="CSS" title="CSS">
+                      <img src="./assets/png/icons-js.png" alt="JavaScript" title="JavaScript">
+                      <img src="./assets/png/icons-api.png" alt="API" title="API">
+                    </div>
+                  </h3>
+                  </a>
+                </li>
+              </ul> 
+        </section>
+      </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class=" footer-container">
+          <img src="./assets/png/github-footer.png" alt="github icon" class="footer-gh"><a href="https://github.com/VitalyGutnikov" class="linkgh" title="click to go github" target="_blank">VitalyGutnikov</a>
+        </div>
+        <div class=" footer-container">
+          <span class="footer-year">&copy; 2022</span>
+        </div>
+        <div class=" footer-container">
+        <a href="https://rs.school/js/" class="rss" title="click to go rs.school" target="_blank"></a>
+      </div>
+    </div>
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="./index.js"></script>
+  </body>
 </html>

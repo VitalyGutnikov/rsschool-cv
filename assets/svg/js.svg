@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+	<title>location</title>
+	<defs>
+		<image  width="23" height="23" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAMAAADX9CSSAAAAAXNSR0IB2cksfwAAAORQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////2sN7jwAAAEx0Uk5TQID/uKrjxoyLvP4rAKEPC4788iAEf4cil/rpFQrOQ4Xo7DcCBpL79j8BB7QprNhRe6Umt8wMwbEbRs0ykwP53zAo2fimWVKE5mFd2uAwS8AAAACgSURBVHicY2BgxAYYGBiZsAHGYSTOzMLKxMTGzsHJhSrOzcPCxMvHw8MvIIguLiQsIiomLiGJLi4lLSPLJMiEYY6gHI+0vAKmOJOikjKPiqoahjiTOrOGppY2QlyKiUlHU5dJT5FJTZ/HAC5uaGRswm9qZm5haWJlzSMPF7ex5eHh0bezdwBSPI5OcHFnF1c3d6B3PQQ8vUS98YUPjvQAAHuIEKhBeyOmAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="logo-javascript" href="#img1" x="1" y="1"/>
+</svg>

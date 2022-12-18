@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+	<title>location</title>
+	<defs>
+		<image  width="25" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAMAAADzN3VRAAAAAXNSR0IB2cksfwAAAVZQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////RiHu7wAAAHJ0Uk5TABIhKyccCAVbs+b2//vw2JAtBG3p/cUoDK387V4Lw/KkyfRvAQOo/rAqAiPV9UZmIsAQ4e91S5xKl1mq3Q6eiRhVOAreBzV66oWjHq4g45guv3+25YCavmgbXKDR24SMNrFi7L1YufiGeeiTU46ffUAUYnsCLwAAAS9JREFUeJxt0tdWwkAQBuBBiCiZEEUQBBugoAKiCJZEBRQsWLH33rvvf+NuspsEw1xkTv7v7CZnZwGMcrQ4XUIr/C93W7tHRMkrd3Q25L4uP/IKdAdNCPWE0VKRXg59/WY6MBiNYSA+pMFwwsiTI6NjvlQaM+OaZM2tEhM0mET05OiSKRbnC9MzckEXjJM+y/I5gbwoKpP5BYBFDUR/sUTCMpfwEixXSJeV6srqmssiuA6lCGJtg3447bTKJmxlELd3dm1SB8FL+55N9iF3QPuhTY4AjptLGeCkqeRPycBEi5xxqdG/PTfErVwwkbT5OS6ZZEmkgnBFzvxan89NTBd65rd39+T5UGWje5Q0Meb9FDKuQd0qzy98BangK5fk23uq4fLQ2Xx8ql/fP788+gPmizMqkqTobgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="favicon.psd" href="#img1" x="0" y="0"/>
+</svg>
